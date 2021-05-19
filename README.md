@@ -9,7 +9,8 @@ The difference between a List and a Tuple is that Lists are mutable and Tuples a
 
 ## What are data collections
 
-```# Lists
+```
+# Lists
 # Syntax ["London"]
 # CRUD = Create, Read, Update and Delete
 
@@ -32,4 +33,7 @@ shopping_list.remove("oats")
 print(shopping_list)
 
 shopping_list.pop() # pop() removes the last item on the list 
-print(shopping_list)``
+print(shopping_list)
+```
+
+## Tuples
