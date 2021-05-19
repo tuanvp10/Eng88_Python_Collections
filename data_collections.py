@@ -1,13 +1,4 @@
-#Python Collections 
-
-- Lists
-- Dictionaries 
-- Tuples
-- Sets
-
-## What are data collections
-
-```# Lists
+# Lists
 # Syntax ["London"]
 # CRUD = Create, Read, Update and Delete
 
@@ -29,5 +20,5 @@ print(shopping_list)
 shopping_list.remove("oats")
 print(shopping_list)
 
-shopping_list.pop() # pop() removes the last item on the list 
-print(shopping_list)``
+shopping_list.pop() # pop() removes the last item on the list
+print(shopping_list)
