@@ -5,6 +5,8 @@
 - Tuples
 - Sets
 
+The difference between a List and a Tuple is that Lists are mutable and Tuples are immutable (you cannot change or update them)
+
 ## What are data collections
 
 ```# Lists
