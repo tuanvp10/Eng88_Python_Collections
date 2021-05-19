@@ -31,4 +31,3 @@ essentials = ("eggs", "milk", "bread")
 print(essentials)
 print(type(essentials))
 # Replace bread with yoghurt
-essentials
