@@ -9,8 +9,9 @@ The difference between a List and a Tuple is that Lists are mutable and Tuples a
 
 ## What are data collections
 
-```
+
 # Lists
+```
 # Syntax ["London"]
 # CRUD = Create, Read, Update and Delete
 
@@ -72,4 +73,23 @@ print(student_1["completed_lessons_name"])
 print(student_1["completed_lessons_name"][1])
 print(student_1.keys())
 print(student_1.values())
+```
+# Sets
+are data collection but the difference is that they are unordered
+- Syntax name = {}
+```
+car_parts = {"wheels", "doors", "engines"}
+print(car_parts)
+
+# Can we add any new parts?
+car_parts.add("windows")
+print(car_parts)
+
+# Can we remove any parts?
+car_parts.discard("doors")
+print(car_parts)
+
+# Frozen sets
+frozen_set = ([1,3,5,6])
+print(frozen_set)
 ```
